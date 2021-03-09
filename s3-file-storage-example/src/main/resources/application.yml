@@ -1,8 +1,8 @@
 cloud:
   aws:
     credentials:
-      access-key: 1234
-      secret-key: 55667+1
+      access-key: AKIAW6QYM5DKEGC54LM6
+      secret-key: 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
     region:
       static: us-east-1
     stack:
@@ -11,7 +11,6 @@ cloud:
 application:
   bucket:
     name: file-upload-s3test
-
 
 spring:
   servlet:

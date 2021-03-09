@@ -12,7 +12,6 @@ application:
   bucket:
     name: file-upload-s3test
 
-
 spring:
   servlet:
     multipart:
