@@ -1,0 +1,26 @@
+cloud:
+  aws:
+    credentials:
+      access-key: 1234
+      secret-key: 55667+1
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: file-upload-s3test
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 9090
+
